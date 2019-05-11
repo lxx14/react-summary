@@ -4,6 +4,7 @@ $block-back: #f0f0f0;
 * {
   box-sizing: border-box;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-family: 'Mali', cursive;
 }
 
 body {
@@ -26,12 +27,14 @@ a {
 
 .container {
   margin: 30px auto;
-  width: 90%;
+  width: 97%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .page {
   background-color: $block-back;
+  z-index: 2;
   width: 60%;
+  min-height: 400px;
 }

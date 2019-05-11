@@ -1,0 +1,30 @@
+$aqua: #008b8b;
+$block-back: #f0f0f0;
+
+.navi-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  li {
+    position: relative;
+    margin: 20px 0 0 0;
+    background-color: $aqua;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    right: -78%;
+    transition: 0.2s;
+    &:hover {
+      right: 0;
+    }
+    a {
+      font-size: 25px;
+      font-weight: bold;
+      color: $block-back;
+      .fas {
+        margin: 0 15px 0 0;
+        font-size: 27px;
+      }
+    }
+  }
+}
