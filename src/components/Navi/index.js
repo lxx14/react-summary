@@ -8,7 +8,7 @@ const Navi = () => {
         <li><a href='#'><i class="fas fa-laptop"></i> Skills</a></li>
         <li><a href='#'><i className="fas fa-glasses"></i> Experiences</a></li>
         <li><a href='#'><i className="fas fa-file-alt"></i> Projects</a></li>
-        <li><a href='#'><i className="fas fa-question"></i> About CV</a></li>
+        <li><a href='#'><i className="fas fa-question"></i> About</a></li>
       </ul>
     </div>
   )

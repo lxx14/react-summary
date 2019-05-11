@@ -13,9 +13,11 @@ class App extends Component {
   render() {
     return (
       <div className='container'>
-        <Navi />
-        <About />
-        <Sidebar />
+        <div className='main-wrap'>
+          <Navi />
+          <About />
+          <Sidebar />
+        </div>
         <Footer />
       </div>
     );
