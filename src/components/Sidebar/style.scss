@@ -9,6 +9,7 @@ $block-back: #f0f0f0;
   padding: 0 10px;
   background-color: $aqua;
   box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.356);
+
   .photo {
     color: $block-back;
     text-align: center;
@@ -36,20 +37,30 @@ $block-back: #f0f0f0;
       }
     }
   }
+
   .contacts-container {
     margin: 30px 0;
     .contacts-list {
       li {
-        color: $block-back !important;
+        color: $block-back;
         margin: 15px 0;
         .fas, .fab {
           margin: 0 5px 0 0;
           font-size: 20px;
         }
         a {
-          color: $block-back !important;
+          color: $block-back;
         }
       }
+    }
+  }
+
+  .education {
+    h2, h4 {
+      color: $block-back
+    }
+    p {
+      color: rgb(194, 194, 194);
     }
   }
 }

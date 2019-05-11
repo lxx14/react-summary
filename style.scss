@@ -48,6 +48,9 @@ a {
   .main-wrap {
     flex-wrap: wrap;
   }
+  .page {
+  width: 70%;
+}
   .navi-container {
     width: 100%;
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.356);
@@ -78,7 +81,13 @@ a {
   }
 }
 
-@media(max-width: 650px) {
+@media(max-width: 890px) {
+  .page {
+    width: 60%;
+  }
+}
+
+@media(max-width: 680px) {
   .sidebar, .page {
     width: 100%;
   }
