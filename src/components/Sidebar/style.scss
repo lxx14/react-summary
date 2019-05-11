@@ -2,7 +2,9 @@ $aqua: #008b8b;
 $block-back: #f0f0f0;
 
 .sidebar {
+  position: relative;
   flex-grow: 1;
   padding: 0 5px;
   background-color: $aqua;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.356);
 }

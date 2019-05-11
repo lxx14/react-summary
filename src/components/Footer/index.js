@@ -4,7 +4,7 @@ import './style.scss';
 const Footer = () => {
   return (
     <div className='footer'>
-      <h1>Footer</h1>
+      <h1>Create with React <i className="fas fa-atom"></i></h1>
     </div>
   )
 }

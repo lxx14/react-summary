@@ -12,9 +12,13 @@ $block-back: #f0f0f0;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     right: -78%;
-    transition: 0.2s;
+    transition: 0.3s;
     &:hover {
       right: 0;
+      box-shadow: -1px 0px 2px 0px rgba(0, 0, 0, 0.808);
+    }
+    &:active {
+      box-shadow: none;
     }
     a {
       font-size: 25px;
