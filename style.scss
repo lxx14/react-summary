@@ -1,0 +1,37 @@
+$aqua: #008b8b;
+$block-back: #f0f0f0;
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  width: 100%;
+  background-color: #d6d6d6;
+}
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 30px auto;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.page {
+  background-color: $block-back;
+  width: 60%;
+}
