@@ -1,0 +1,31 @@
+.about-page {
+  h1 {
+    text-align: center;
+  }
+  #to-left-side {
+    text-align: end;
+
+  }
+  #to-center {
+    text-align: center;
+    margin: 50px 0 0 0;
+    font-weight: bold;
+  }
+  .fas {
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    animation: fas-flicking 0.8s linear infinite;
+  }
+  .fa-angle-right {
+    margin: 0 0 0 10px;
+  }
+    .fa-angle-left {
+    margin: 0 10px 0 0;
+  }
+}
+@keyframes fas-flicking {
+  0% {transform: scale(1); text-shadow: none}
+  50% {transform: scale(1.1); text-shadow: 1px 1px 1px black}
+  100% {transform: scale(1); text-shadow: none}
+}
