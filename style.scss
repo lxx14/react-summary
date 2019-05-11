@@ -62,6 +62,7 @@ a {
         border-radius: 0;
         &:hover {
           background-color: rgba(0, 192, 192, 0.384);
+          box-shadow: none;
         }
         a {
           display: block;
