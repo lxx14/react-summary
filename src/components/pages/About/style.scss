@@ -12,13 +12,15 @@
     font-size: 40px;
     position: relative;
     top: 10px;
-    animation: fas-flicking 0.8s linear infinite;
   }
   .fa-angle-right {
     margin: 0 0 0 10px;
   }
-    .fa-angle-left {
+  .fa-angle-left {
     margin: 0 10px 0 0;
+  }
+  .rotate {
+    transform: rotate(90deg) !important;
   }
 }
 @keyframes fas-flicking {

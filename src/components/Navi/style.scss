@@ -25,6 +25,7 @@ $block-back: #f0f0f0;
       font-weight: bold;
       color: $block-back;
       display: flex;
+      cursor: pointer;
       .fas {
         margin: 0 19px 0 0;
         font-size: 27px;
