@@ -57,10 +57,28 @@ $block-back: #f0f0f0;
 
   .education {
     h2, h4 {
-      color: $block-back
+      color: $block-back;
     }
     p {
       color: rgb(194, 194, 194);
+    }
+  }
+
+  .languages {
+    color: $block-back;
+    h2 {
+      font-weight: bold;
+    }
+  }
+
+  .interests {
+    color: $block-back;
+    h2 {
+      font-weight: bold;
+    }
+    p {
+      color: rgb(194, 194, 194);
+      font-weight: bold;
     }
   }
 }

@@ -24,8 +24,9 @@ $block-back: #f0f0f0;
       font-size: 25px;
       font-weight: bold;
       color: $block-back;
+      display: flex;
       .fas {
-        margin: 0 15px 0 0;
+        margin: 0 19px 0 0;
         font-size: 27px;
       }
     }

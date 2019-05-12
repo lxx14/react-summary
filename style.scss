@@ -81,7 +81,7 @@ a {
   }
 }
 
-@media(max-width: 890px) {
+@media(max-width: 897px) {
   .page {
     width: 60%;
   }
@@ -93,6 +93,7 @@ a {
   }
   .sidebar {
     order: -1;
+    padding: 10px 0 10px 30px;
   }
   .navi-list {
     justify-content: space-between;
