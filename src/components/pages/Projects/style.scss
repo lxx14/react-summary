@@ -23,3 +23,36 @@ $aqua: #008b8b;
   75% {transform: rotate(7deg)}
   100% {transform: rotate(0deg)}
 }
+
+.works {
+  ul {
+    margin: 40px 0;
+    li {
+      margin: 0 0 20px 20px;
+      .fas, .fab {
+        position: relative;
+        margin: 0 40px 0 0;
+        animation:  works-pen-move 4s linear infinite, works-pen-shake 0.4s linear infinite;
+      }
+      a {
+        color: $aqua;
+        font-weight: bold;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@keyframes works-pen-move {
+  0% {left: 0}
+  50% {left: 30px}
+  100% {left: 0}
+}
+
+@keyframes works-pen-shake {
+  0% {transform: rotate(0deg)}
+  25% {transform: rotate(-5deg)}
+  50% {transform: rotate(0deg)}
+  75% {transform: rotate(5deg)}
+  100% {transform: rotate(0deg)}
+}
