@@ -2,10 +2,10 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 const JobsList = (props) => {
-
+  const renderList = props.jobs.map(item=><div>{item.id}</div>)
   return (
     <div className='jobs-list'>
-    <h2>List</h2>
+    {renderList}
     </div>
   )
 }
