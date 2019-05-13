@@ -10,7 +10,9 @@ const Skills = () => {
       <Skill name='Javascript:' skill='javascript'/>
       <Skill name='React+Redux:' skill='react-redux'/>
       <Skill name='GIT' skill='git'/>
-      
+      <Skill name='Node (npm/yarn)' skill='node'/>
+      <Skill name='Jest' skill='jest'/>
+      <Skill name='Webpack' skill='webpack'/>
     </div>
   )
 }
