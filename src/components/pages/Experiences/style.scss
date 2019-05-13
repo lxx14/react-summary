@@ -1,0 +1,13 @@
+$aqua: #008b8b;
+
+.jobs-list {
+  div {
+    margin: 0 0 50px 0;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    .date {
+      color: $aqua;
+      font-weight: bold;
+    }
+  }
+}
