@@ -67,7 +67,7 @@ a {
         padding: 0px;
         border-radius: 0;
         &:hover {
-          background-color: rgba(0, 192, 192, 0.384);
+          background-color: rgba(0, 192, 192, 0.384)  !important;
           box-shadow: none;
         }
         a {
@@ -100,6 +100,10 @@ a {
   }
   .navi-list {
     justify-content: space-between;
+    background-color: #002929 !important;
+    li {
+      background-color: #002929 !important;
+    }
   }
 }
 
