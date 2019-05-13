@@ -13,7 +13,6 @@ const JobsList = (props) => {
 
   return (
     <div className='jobs-list'>
-      {renderJobs}
     </div>
   )
 }
