@@ -38,6 +38,10 @@ $aqua: #008b8b;
         color: $aqua;
         font-weight: bold;
         font-size: 20px;
+        &:hover {
+          text-decoration: underline;
+          text-decoration-color: black;
+        }
       }
     }
   }
