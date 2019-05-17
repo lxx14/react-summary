@@ -6,7 +6,7 @@ const Contacts = () => {
     <ul className='contacts-list'>
       <li><i className="fab fa-google"></i>lxx1427@gmail.com</li>
       <li><i className="fas fa-phone"></i>+38(093)-989-08-17</li>
-      <li><i className="fab fa-telegram"></i> <a href="https://t.me/lxx1427" target="blank">Telegram</a></li>
+      <li><i className="fab fa-telegram"></i> <a href="https://t.me/Alexey_Ilch" target="blank">Telegram</a></li>
       <li><i className="fab fa-facebook-square"></i> <a href="https://www.facebook.com/leks.lilch" target="blank"> Facebook</a></li>
       <li><i className="fab fa-viber"></i><a href="viber://chat?number=380939890817" target="blank">Viber</a></li>
       <li><i className="fab fa-skype"></i><a href="skype:live:f2024932cda66868?chat">Alexey Ilch</a></li>
