@@ -1,30 +1,37 @@
 [
-    {
-    "id":1,
-    "func":"Brand Development Director Analyst",
-    "name":"Euromix Ltd",
-    "date":"from 05.2017 - Until now",
-    "duties":"Full analytics of KPI indicators, work with the various databases, calculation of ESF indicators of efficiency"
+  {
+    "id": 1,
+    "func": "FrontEnd developer",
+    "name": "Commercial startup Global Virtual",
+    "date": "from 06.2019 - - Until now",
+    "duties": "WEB Developing, using React, Redux, React-Riuter, Redux-Saga, LESS, SCSS, Styled Components, Adaptive layout (Flex, Grid), GIT/Mercurial, Zeplin, Webpack, GIMP, Flexelse"
   },
   {
-    "id":2,
-    "func":"Economist",
-    "name":"ATB-market Ltd",
-    "date":"from 11.2012 - to 05.2017",
-    "duties":"Calculation and analysis of economic indicators"
+    "id": 2,
+    "func": "Brand Development Director Analyst",
+    "name": "Euromix Ltd",
+    "date": "from 05.2017 - 05.2019",
+    "duties": "Full analytics of KPI indicators, work with the various databases, calculation of ESF indicators of efficiency"
   },
   {
-    "id":3,
-    "func":"Client Operations Support Specialist",
-    "name":"Raiffeisen Bank Aval",
-    "date":"from 07.2010 - to 10.2012",
-    "duties":"Work with credit and deposit affairs of bank clients"
+    "id": 3,
+    "func": "Economist",
+    "name": "ATB-market Ltd",
+    "date": "from 11.2012 - to 05.2017",
+    "duties": "Calculation and analysis of economic indicators"
   },
   {
-    "id":4,
-    "func":"Call Center Operator",
-    "name":"Homer Software House Ltd",
-    "date":"from 05.2010 - to 07.2010",
-    "duties":"Receiving of incoming requests from clients of Home Credit Bank by phone"
+    "id": 4,
+    "func": "Client Operations Support Specialist",
+    "name": "Raiffeisen Bank Aval",
+    "date": "from 07.2010 - to 10.2012",
+    "duties": "Work with credit and deposit affairs of bank clients"
+  },
+  {
+    "id": 5,
+    "func": "Call Center Operator",
+    "name": "Homer Software House Ltd",
+    "date": "from 05.2010 - to 07.2010",
+    "duties": "Receiving of incoming requests from clients of Home Credit Bank by phone"
   }
 ]
